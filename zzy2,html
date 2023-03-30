@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>小赖专属</title>
+
+<link href="favicon.ico" rel="shortcut icon" class="icon-love" type="images/x-ico">
+
+<link rel="stylesheet" href="css/love.css">
+<style>
+    div.renshi{
+           border: 2px;
+            margin: 100px auto;
+            width: 600px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 20px; 
+            float: left;
+    }
+</style>
+
+</head>
+<body>
+    
+    <div class="renshi">
+        和小赖认识已经&nbsp;
+        <span id="tian"></span>天
+        <span id="shi"></span>时
+        <span id="fen"></span>分
+        <span id="miao"></span>秒
+    </div>
+
+<div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
+
+    <div class="body_left">
+        <img src="images/biubiubiu.gif" alt="" ondragstart='return false;'>
+    </div>
+
+    <div class="body_center love">
+        <div class="block">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="border">
+        <div class="border-top"></div>
+        <div class="border-bottom"></div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="js/love.js"></script>
+<script src="js/renshi.js"></script>
+
+</body>
+</html>
